@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body  cz-shortcut-listen="true">
+    <!----NAV---->
+    <nav class="navbar navbar-dark bg-dark" aria-label="First navbar example">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">AT</a>
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="navbar-collapse collapse" id="navbarsExample01">
+            <ul class="navbar-nav me-auto mb-2">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#icon-grid">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#footer">Socials</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!---HOME----->
+      <div class="px-4 pt-5 my-5 text-center border-bottom">
+        <h1 class="display-4 fw-bold text-body-emphasis">Ameeq Tariq Dar</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">Programmer</p>
+        </div>
+        <div class="overflow-hidden" style="max-height: 100vh;">
+          <div class="container px-5">
+            <img src="./images/profile2.jpeg" class="img-fluid border rounded-4 shadow-lg mb-4" alt="Example image" width="700" height="1000" loading="lazy">
+          </div>
+          <div class="container px-5">
+            <h3>Coding with Passion, Inspired by Nature.</h3>
+          </div>
+        </div>
+      </div>
+      <br>
+      <!--About-->
+      <div class="container px-4 py-5" id="icon-grid">
+        <h2 class="pb-2 border-bottom">A bit About Me</h2>
+    
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+            <div class="col d-flex align-items-start">
+                <img  width="40" height="40" src="./images/code-slash.svg">
+                 <div class="mx-2">
+                   <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Developer</h3>
+                   <p> I specialize in building responsive web applications and integrating APIs to enhance functionality.</p>
+                 </div>
+               </div>
+            <div class="col d-flex align-items-start">
+            <img width="40" height="40" src="https://img.icons8.com/ios-filled/50/football.png" alt="football"/>
+            <div class="mx-2">
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Footballer</h3>
+              <p>When I'm not coding, I'm lacing up my boots for a game of football.</p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <img width="40" height="40" src="./images/mortarboard.svg" alt="cap"/>
+            <div class="mx-2">
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Academics</h3>
+              <p> I completed my Bachelor's degree in CSE, where I gained expertise in algorithms,programming.</p>
+            </div>
+        </div>
+        </div>
+      </div>
+      <!----Contact---->
+      <div class="p-5 text-center bg-body-tertiary rounded-3" id="contact">
+        <svg class="bi mt-4 mb-3" style="color: var(--bs-indigo);" width="100" height="100"><use xlink:href="#bootstrap"></use></svg>
+        <h1 class="text-body-emphasis">Get In Touch</h1><br>
+        <p class="col-lg-8 mx-auto fs-5">
+          I'm currently looking for a job as a full stack developer. If you have any opportunities,feel free to get in touch.Also, if you like football as much as i do.
+        </p><br>
+        <div class="d-inline-flex gap-2 mb-5">
+            <a class="btn"href="mailto:ameeqtariqns200@gmail.com">Contact Me</a> 
+        </div>
+      </div>
+      <!--Documents-->
+      <div class="d-flex gap-2 justify-content-center py-5 gradient-backgroundl">
+        <a class="badge text-bg-danger rounded-pill" href="./doc/CST.pdf">INTENSHIP-1</a>
+        <a class="badge text-bg-light rounded-pill" href="#">Featured</a>
+        <a class="badge text-bg-warning rounded-pill" href="./doc/VAAI.pdf">INTERNSHIP-2</a>
+      </div>
+      <!--Featured-->
+      <!--Footer-->
+      <div class="container" id="footer">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+              <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-body-secondary">© Ameeq Tariq</span>
+          </div>
+      
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-body-secondary" href="https://x.com/ameeq_tariq"><img src="./images/twitter-x.svg"alt="twitter"/></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/ameeq.10"><img src="./images/instagram (1).svg"alt="instagram"/></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="https://www.linkedin.com/in/ameeq-tariq-6472312b7"><img src="./images/linkedin.svg"alt="linkedin"/></a></li>
+          </ul>
+        </footer>
+      </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
